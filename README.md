@@ -78,26 +78,6 @@ php demo_delete.php
 php Demo.php
 ```
 
-### 4. 🧪 Penggunaan Modular Custom
-
-```php
-<?php
-// Hanya menggunakan operasi append dan search
-require_once 'LinkedListBase.php';
-require_once 'AppendOperation.php';
-require_once 'SearchOperation.php';
-
-class SimpleList extends LinkedListBase {
-    use AppendOperation;
-    use SearchOperation;
-}
-
-$list = new SimpleList();
-$list->appendData(10);
-$list->search(10);
-?>
-```
-
 ## 📚 OPERASI YANG TERSEDIA
 
 ### 🔹 AppendOperation.php
