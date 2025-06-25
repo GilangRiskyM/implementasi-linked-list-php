@@ -31,7 +31,7 @@ SOFTWARE.**
 | **Copyright Holder** | GilangRiskyM                     |
 | **Project**          | LinkedList Implementation in PHP |
 | **Created Date**     | 2025-06-25 07:37:09 UTC          |
-| **Author Login**     | GilangRiskyM                     |
+| **Author**           | GilangRiskyM                     |
 
 ## 🔖 License Summary
 
