@@ -91,13 +91,6 @@ function runCompleteDemo()
     $list->deleteByValue(20);
     pauseExecution();
 
-    // Demo Advanced Operations
-    printSubHeader("DEMO ADVANCED OPERATIONS");
-    $list->reverse();
-    pauseExecution();
-    $list->showSize();
-    pauseExecution();
-
     // Summary
     printHeader("RINGKASAN AKHIR");
     $list->display("LinkedList Final");

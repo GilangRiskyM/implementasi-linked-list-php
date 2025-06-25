@@ -24,37 +24,6 @@ class LinkedList extends LinkedListBase
     use DeleteOperation;
     use SearchOperation;
 
-    // Method tambahan untuk operasi kompleks
-    public function reverse()
-    {
-        echo "\n" . str_repeat("=", 50) . "\n";
-        echo "🔹 OPERASI: REVERSE (Membalik LinkedList)\n";
-
-        $this->display("Sebelum reverse");
-
-        if ($this->head === null || $this->head->next === null) {
-            echo "   ➤ LinkedList kosong atau hanya 1 node, tidak perlu dibalik\n";
-            return;
-        }
-
-        $previous = null;
-        $current = $this->head;
-        $next = null;
-
-        echo "   ➤ Memulai proses reverse...\n";
-        while ($current !== null) {
-            echo "     - Current: {$current->data}\n";
-            $next = $current->next;
-            $current->next = $previous;
-            $previous = $current;
-            $current = $next;
-        }
-
-        $this->head = $previous;
-        $this->display("Setelah reverse");
-        echo "✅ REVERSE SELESAI\n";
-    }
-
     // Method untuk mengecek apakah list kosong
     public function isEmpty()
     {
