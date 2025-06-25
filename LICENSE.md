@@ -80,7 +80,6 @@ This license applies to **ALL** files in the LinkedList implementation project:
 
 ### 📜 Documentation Files
 
-- `DEMO_README.md` - Demo-specific documentation
 - `README.md` - Main project documentation
 - `LICENSE.md` - This license file
 
