@@ -37,7 +37,6 @@ function runCompleteDemo()
 {
     printHeader("DEMO LINKED LIST - OPERASI TERPISAH");
     echo "Author: GilangRiskyM\n";
-    echo "Date: 2025-06-25 07:22:30 UTC\n";
     echo "Setiap operasi diimplementasikan dalam file terpisah\n";
 
     // Inisialisasi
