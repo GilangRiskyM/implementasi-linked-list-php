@@ -20,7 +20,7 @@ function printDemoHeader($title)
     echo str_repeat("=", 60) . "\n";
 }
 
-function pauseDemo($seconds = 2)
+function pauseDemo($seconds = 1)
 {
     echo "\n⏳ Tunggu $seconds detik...\n";
     sleep($seconds);
@@ -34,29 +34,29 @@ echo "📂 File implementasi: AppendOperation.php\n";
 // Inisialisasi
 echo "\n🏗️ Membuat LinkedList kosong...\n";
 $list = new LinkedList();
-pauseDemo(1);
+pauseDemo(3);
 
 // Demo 1: Append dengan Node object
 echo "\n1️⃣ DEMO: Append dengan Node object\n";
 $list->append(new Node(10));
-pauseDemo(1);
+pauseDemo(3);
 
 $list->append(new Node(20));
-pauseDemo(1);
+pauseDemo(3);
 
 $list->append(new Node(30));
-pauseDemo(1);
+pauseDemo(3);
 
 // Demo 2: Append dengan data langsung
 echo "\n2️⃣ DEMO: Append dengan data langsung (appendData)\n";
 $list->appendData(40);
-pauseDemo(1);
+pauseDemo(3);
 
 $list->appendData(50);
-pauseDemo(1);
+pauseDemo(3);
 
 $list->appendData(60);
-pauseDemo(1);
+pauseDemo(3);
 
 // Demo 3: Append dalam loop
 echo "\n3️⃣ DEMO: Append multiple data dalam loop\n";
@@ -64,7 +64,7 @@ $data_array = [70, 80, 90, 100];
 foreach ($data_array as $data) {
     echo "   ➤ Menambah data: $data\n";
     $list->appendData($data);
-    pauseDemo(1);
+    pauseDemo(3);
 }
 
 // Status akhir

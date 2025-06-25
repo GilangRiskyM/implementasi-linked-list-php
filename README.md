@@ -2,6 +2,7 @@
 
 **Author:** GilangRiskyM  
 **Last Updated:** 2025-06-25
+
 **Version:** 2.0 - Separated Demo Edition
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.md)
