@@ -23,7 +23,7 @@
 ### 1. Demo Lengkap Semua Operasi
 
 ```bash
-php demo.php
+php Demo.php
 ```
 
 ### 2. Test Khusus Append
@@ -72,7 +72,7 @@ php test_append.php
 ### Metode 3: Dalam Demo Lengkap
 
 ```bash
-php demo.php
+php Demo.php
 ```
 
 ## 🔧 OPERASI APPEND YANG TERSEDIA
@@ -210,7 +210,7 @@ $list->delete(0);
 
 ```bash
 # Test semua operasi
-php demo.php
+php Demo.php
 
 # Test khusus append
 php test_append.php
@@ -236,7 +236,7 @@ $list->display("Test Result");
 
 ## 📊 OUTPUT EXAMPLE
 
-Ketika menjalankan `php demo.php`, Anda akan melihat output seperti:
+Ketika menjalankan `php Demo.php`, Anda akan melihat output seperti:
 
 ```
 ✓ LinkedList kosong berhasil dibuat
