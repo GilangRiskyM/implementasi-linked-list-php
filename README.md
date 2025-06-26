@@ -116,11 +116,10 @@ php Demo.php
 
 ### 🔹 LinkedList.php (Advanced)
 
-| Method      | Parameter | Return  | Deskripsi               |
-| ----------- | --------- | ------- | ----------------------- |
-| `reverse()` | -         | void    | Balik urutan LinkedList |
-| `isEmpty()` | -         | boolean | Cek apakah list kosong  |
-| `clear()`   | -         | void    | Hapus semua node        |
+| Method      | Parameter | Return  | Deskripsi              |
+| ----------- | --------- | ------- | ---------------------- |
+| `isEmpty()` | -         | boolean | Cek apakah list kosong |
+| `clear()`   | -         | void    | Hapus semua node       |
 
 ### 🔹 LinkedListBase.php (Utilities)
 
